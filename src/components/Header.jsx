@@ -1,4 +1,4 @@
-import Logo from "../assets/redberry.svg";
+import Logo from "../assets/svg/redberry.svg";
 
 function Header() {
   return (
