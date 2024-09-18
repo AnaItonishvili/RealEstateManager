@@ -2,9 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'FiraGO';
+  src: url('./assets/fonts/FiraGO-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraGO';
+  src: url('./assets/fonts/FiraGO-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'FiraGO';
+  src: url('./assets/fonts/FiraGO-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 .page-width {
   max-width: 1596px;
   width: 100%;
   margin: 0 auto;
   @apply px-10;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @apply font-heading;
+}
+
+body {
+  @apply font-body;
 }
