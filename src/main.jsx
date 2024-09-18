@@ -10,6 +10,7 @@ import {
 
 import Layout from './pages/Layout.jsx';
 import Listings from './pages/Listings.jsx';
+import AddListing from './pages/AddListing.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,9 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Listings />
+      }, {
+        path: "/add-listing",
+        element: <AddListing />
       }
     ]
   },
