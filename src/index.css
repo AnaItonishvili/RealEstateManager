@@ -51,8 +51,28 @@
   @apply px-10;
 }
 
-body {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+strong,
+em,
+b,
+i,
+blockquote,
+ul,
+ol,
+li,
+code,
+pre,
+abbr,
+dfn {
   @apply font-heading;
+  line-height: normal !important;
 }
 
 .font-case-on {
