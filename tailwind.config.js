@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#021526",
+      },
       fontFamily: {
         heading: ['FiraGO', 'sans-serif'],
       }

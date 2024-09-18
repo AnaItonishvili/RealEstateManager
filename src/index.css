@@ -70,9 +70,15 @@ li,
 code,
 pre,
 abbr,
-dfn {
+dfn,
+label,
+input {
   @apply font-heading;
   line-height: normal !important;
+}
+
+input:focus {
+  outline: none;
 }
 
 .font-case-on {
