@@ -23,6 +23,27 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueLight.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueMedium.otf') format(' opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url('./assets/fonts/HelveticaNeueBold.otf') format(' opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
 .page-width {
   max-width: 1596px;
   width: 100%;
