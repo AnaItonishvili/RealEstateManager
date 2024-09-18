@@ -8,7 +8,6 @@ export default {
     extend: {
       fontFamily: {
         heading: ['FiraGO', 'sans-serif'],
-        body: ['HelveticaNeue', 'sans-serif']
       }
     },
   },

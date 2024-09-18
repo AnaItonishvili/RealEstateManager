@@ -25,21 +25,21 @@
 
 @font-face {
   font-family: 'HelveticaNeue';
-  src: url('./assets/fonts/HelveticaNeueLight.otf') format('opentype');
+  src: url('./assets/fonts/HelveticaNeue-Light.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HelveticaNeue';
-  src: url('./assets/fonts/HelveticaNeueMedium.otf') format(' opentype');
+  src: url('./assets/fonts/HelveticaNeue-Medium.otf') format('opentype');
   font-weight: 500;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'HelveticaNeue';
-  src: url('./assets/fonts/HelveticaNeueBold.otf') format(' opentype');
+  src: url('./assets/fonts/HelveticaNeue-Heavy.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }
@@ -51,15 +51,34 @@
   @apply px-10;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+body {
   @apply font-heading;
 }
 
-body {
-  @apply font-body;
+.font-case-on {
+  font-feature-settings: "case" on;
+}
+
+input[type="radio"] {
+  appearance: none;
+  border: 1px solid #021526;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+  position: relative;
+}
+
+input[type="radio"]:checked::after {
+  content: '';
+  display: block;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #021526;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
