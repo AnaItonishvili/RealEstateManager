@@ -1,6 +1,6 @@
 function Listings() {
     return (
-        <div>Listings</div>
+        <section className="page-width py-[77px]">Listings</section>
     )
 }
 
